@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* Center align the main-content */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style for the main heading */
+.main-content h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Style for the subheading */
+.main-content h2 {
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+/* Add margin to the button for better spacing */
+.main-content button {
+    margin-top: 20px;
+}
+/* Navigation bar styles */
+.main_nav {
+    background-color: #333; /* Dark background color */
+    padding: 10px;
+}
+
+.main_nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main_nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.main_nav ul li a {
+    color: #fff; /* Text color for navigation links */
+    text-decoration: none;
+}
+
+.main_nav ul li a:hover {
+    color: #ff0000; /* Text color when hovering over navigation links */
+}
+
+
+#departmentDropdown {
+    padding: 5px;
+}
+body {
+  background-image: url('college.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* Add any other styling you want for the body */
+}

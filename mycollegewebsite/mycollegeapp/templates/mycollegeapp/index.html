@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>School Store Website</title>
+</head>
+<body>
+    <h1>Welcome to School Store Website</h1>
+
+    <!-- Navbar -->
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/login/">Login</a></li>
+            <li><a href="/register/">Register</a></li>
+            <li>
+                <label for="department-dropdown">Department:</label>
+                <select id="department-dropdown" onchange="redirectToWikipedia()">
+                    <option value="">Select Department</option>
+                    <option value="science">Science</option>
+                    <option value="commerce">Commerce</option>
+                    <option value="arts">Arts</option>
+                    <option value="music">Music</option>
+                    <option value="instruments">Instruments</option>
+                </select>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Other content of the homepage -->
+
+    <script>
+        // Function to redirect to corresponding Wikipedia page on department selection
+        function redirectToWikipedia() {
+            const departmentDropdown = document.getElementById("department-dropdown");
+            const selectedDepartment = departmentDropdown.value;
+            if (selectedDepartment) {
+                // You can redirect to the corresponding Wikipedia pages here
+                // For example:
+                // window.location.href = `https://en.wikipedia.org/wiki/${selectedDepartment}`;
+            }
+        }
+    </script>
+</body>
+</html>
